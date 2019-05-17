@@ -10,7 +10,7 @@ var schema = buildSchema(`
 `);
 
 var root = {
-	message: () => ('Hello World');
+	message: () => 'Hello World'
 };
 
 // Create an express server and a GraphQL endpoint
